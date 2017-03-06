@@ -15,8 +15,8 @@ git branch -D company<br>
 
 ---
 ##3.GitHub添加ssh key.
-GitHub的setting页面中的SSH and GPG keys,点击NEW SSH KEY,在key的一栏把id_rsa.pub公钥文件内容复制进去，点击add SSH key就ok了。<br>
-测试成功与否:输入ssh -T git@github.com 测试，有个人信息就说明ok了.<br>
+<p>GitHub的setting页面中的SSH and GPG keys,点击NEW SSH KEY,在key的一栏把id_rsa.pub公钥文件内容复制进去，点击add SSH key就ok了。<br>
+测试成功与否:输入ssh -T git@github.com 测试，有个人信息就说明ok了.</p>
 --- 
 ##4.Push & Pull
 1. push:推，将本地推到远程仓库，保持同步<br/>　
@@ -24,7 +24,8 @@ GitHub的setting页面中的SSH and GPG keys,点击NEW SSH KEY,在key的一栏�
 1. pull:拉，如果别人提交代码到远程，你需要拉取最新代码类似svn up,保证同步<br/>
     eg:git pull origin master ,在push之前先pull,不容易冲突.<br>
 ---
-#5.提交代码
+
+##5.提交代码
 方法1:clone自己的项目，修改添加完之后，进行commit 之后git push origin master.<br/>
 方法2:<br/>
     step1:在github上建一个test项目<br/>
